@@ -1,0 +1,16 @@
+{
+  "name": "postman-newman-jenkins-github",
+  "version": "1.0.0",
+  "description": "Project to create a test stage for a jenkins pipeline of automatization",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-test-beforeproduction": "newman run tests/PSL_Postaman_Workshop.postman_collection.json"
+  },
+  "author": "John Sebastian Urbano Lenis",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.1.2"
+  }
+}
