@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "api-test-beforeproduction": "newman run tests/PSL_Postaman_Workshop.postman_collection.json"
+    "api-test-beforeproduction": "newman run test/PSL_Postaman_Workshop.postman_collection.json"
   },
   "author": "John Sebastian Urbano Lenis",
   "license": "ISC",
