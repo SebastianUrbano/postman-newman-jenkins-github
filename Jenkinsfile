@@ -1,3 +1,5 @@
+#!groovy
+
 node {
    
    step([$class: 'WsCleanup'])
