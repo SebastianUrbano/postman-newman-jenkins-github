@@ -1,7 +1,6 @@
 #!groovy
 
 node {
-   
    step([$class: 'WsCleanup'])
    
    stage "Checkout Git repo"
