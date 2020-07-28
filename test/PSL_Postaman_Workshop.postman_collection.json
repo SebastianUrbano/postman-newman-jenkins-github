@@ -108,7 +108,17 @@
 					"raw": "{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"beagle\"\n  },\n  \"name\": \"kira\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"mascota\"\n    }\n  ],\n  \"status\": \"available\"\n}"
 				},
 				"url": {
-					"raw": ""
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
 				}
 			},
 			"response": []
